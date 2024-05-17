@@ -16,7 +16,7 @@ const List = ({ listTitle, todos, setToDos }) => {
         setToDos((todos) => todos.filter((el) => el.id !== id));
         Swal.fire({
           title: "Deleted!",
-          text: "Your file has been deleted.",
+          text: "Your list has been deleted.",
           icon: "success",
         });
       }
